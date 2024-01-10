@@ -1,7 +1,8 @@
-require("dotenv").config();
+import * as dotenv from "dotenv";
+
+dotenv.config();
 
 import express from "express";
-
 import cors from "cors";
 import userRoutes from "./routes/user.route";
 
